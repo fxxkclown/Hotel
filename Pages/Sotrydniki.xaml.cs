@@ -24,7 +24,7 @@ namespace Hotel.Pages
         public Sotrydniki()
         {
             InitializeComponent();
-            qqq.ItemsSource = Entities.GetContext().order.ToList();
+            qqq.ItemsSource = Entities.GetContext().user.ToList();
         }
     }
 }

@@ -47,12 +47,12 @@ namespace Hotel.Pages
                             break;
 
                         case 2:
-                            MessageBox.Show("Здравствуйте, Менеджер" + userObj.firstname + "!", "Уведомление", MessageBoxButton.OK, MessageBoxImage.Information);
+                            MessageBox.Show("Здравствуйте, Менеджер " + userObj.firstname + "!", "Уведомление", MessageBoxButton.OK, MessageBoxImage.Information);
                             Manager.MainFrame.Navigate(new ManagerPage());
                             break;
 
                         case 3:
-                            MessageBox.Show("Здравствуйте, Сотрудник предоставления услуг отеля" + userObj.firstname + "!", "Уведомление", MessageBoxButton.OK, MessageBoxImage.Information);
+                            MessageBox.Show("Здравствуйте, Сотрудник предоставления услуг отеля " + userObj.firstname + "!", "Уведомление", MessageBoxButton.OK, MessageBoxImage.Information);
                             Manager.MainFrame.Navigate(new SotrydnikYslygiOtela());
                             break;
                         default:
