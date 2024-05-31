@@ -24,19 +24,19 @@
             </ListView.ItemsPanel >
             <ListView.ItemTemplate >
                 <DataTemplate >
-                    <Border HorizontalAlignment = "Center" VerticalAlignment = "Center" BorderBrush = "Black" BorderThickness = "2" Width = "1200" Height = "400" >
+                    <Border HorizontalAlignment = "Center" VerticalAlignment = "Center" BorderBrush = "Black" BorderThickness = "2" Width = "auto" Height = "auto" >
                         <Grid >
                             <StackPanel >
                                 <WrapPanel Margin = "5" >
                                     <StackPanel >
-                                        <TextBlock Text = "Дата начала смены" FontWeight = "Bold" Margin = "5" FontSize = "20" />
-                                        <TextBlock Text = "Дата окончания смены" FontWeight = "Bold" Margin = "5" FontSize = "20" />
+                                        <TextBlock Text = "Дата начала смены" FontWeight = "Bold" Margin = "5"  />
+                                        <TextBlock Text = "Дата окончания смены" FontWeight = "Bold" Margin = "5"  />
                                         
                                     </StackPanel >
                                     <StackPanel Margin = "5" >
 
-                                        <TextBlock Text = "{Binding datestart}"  Margin = "5" Width = "1000" FontSize = "20" />
-                                        <TextBlock Text = "{Binding dateend}"  Margin = "5" Width = "200" FontSize = "20" />
+                                        <TextBlock Text = "{Binding datestart}"  Margin = "5" Width = "200"  />
+                                        <TextBlock Text = "{Binding dateend}"  Margin = "5" Width = "200"  />
                                         
                                     </StackPanel >
                                 </WrapPanel >

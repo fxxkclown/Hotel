@@ -24,7 +24,7 @@ namespace Hotel.Pages
         public Smena()
         {
             InitializeComponent();
-            kkk.ItemsSource = Entities.GetContext().order.ToList();
+            kkk.ItemsSource = Entities.GetContext().shift.ToList();
         }
     }
 }
