@@ -9,7 +9,11 @@
       Title="Avtoriz">
 
     <Grid>
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="373*"/>
+            <RowDefinition Height="77*"/>
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Height="93" Width="220">
             <TextBlock Text="Авторизация" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
             <WrapPanel>
                 <TextBlock Text="Логин" Width="70"/>
@@ -23,5 +27,9 @@
                 <Button Content="Авторизация" x:Name="Avtorizatsia" FontSize="20" Click="Avtorizatsia_Click"/>
             </WrapPanel>
         </StackPanel>
+        <WrapPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="40" Width="128">
+            <Button x:Name="Reg" Content="Регистрация" FontSize="20" Click="Reg_Click" Margin="5"/>
+        </WrapPanel>
+
     </Grid>
 </Page>

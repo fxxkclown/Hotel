@@ -66,5 +66,12 @@ namespace Hotel.Pages
                 MessageBox.Show("Ошибка" + Ex.Message.ToString() + "Критическая ошибка", "Уведомление", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
+
+        
+
+        private void Reg_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new Registartsia());
+        }
     }
 }

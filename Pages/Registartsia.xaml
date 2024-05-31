@@ -9,7 +9,11 @@
       Title="Registartsia">
 
     <Grid>
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="379*"/>
+            <RowDefinition Height="71*"/>
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center"  Height="147" Width="220">
             <TextBlock Text="Регистрация" HorizontalAlignment="Center" FontSize="20" FontWeight="Bold"/>
             <WrapPanel>
                 <TextBlock Text="Фамилия" Width="70"/>
@@ -35,6 +39,10 @@
                 <Button Content="Регистрация" x:Name="reg" Click="reg_Click" FontSize="20" />
             </WrapPanel>
         </StackPanel>
-        
+        <WrapPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="40" Width="134">
+            <Button x:Name="Avt" Content="Авторизация" FontSize="20" Click="Avt_Click" Margin="5"/>
+
+        </WrapPanel>
+
     </Grid>
 </Page>

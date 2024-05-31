@@ -25,17 +25,10 @@ namespace Hotel
         {
             InitializeComponent();
             Manager.MainFrame = MainFrame;
-
-        }
-
-        private void Avt_Click(object sender, RoutedEventArgs e)
-        {
             Manager.MainFrame.Navigate(new Avtoriz());
+
         }
 
-        private void Reg_Click(object sender, RoutedEventArgs e)
-        {
-            Manager.MainFrame.Navigate(new Registartsia());
-        }
+        
     }
 }

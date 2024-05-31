@@ -29,5 +29,10 @@ namespace Hotel.Pages
         {
             MessageBox.Show("Ваша заявка на регистрацию отправлена на проверку менеджеру ");
         }
+
+        private void Avt_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new Avtoriz());
+        }
     }
 }
