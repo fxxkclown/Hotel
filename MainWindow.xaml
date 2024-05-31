@@ -15,8 +15,7 @@
         <TextBlock Text="МИНИ ОТЕЛЬ" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40" FontWeight="Bold"/>
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" Grid.Row="1"/>
         <WrapPanel Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <Button x:Name="Avt" Content="Авторизация" FontSize="20" Click="Avt_Click" Margin="5"/>
-            <Button x:Name="Reg" Content="Регистрация" FontSize="20" Click="Reg_Click" Margin="5"/>
+            
         </WrapPanel>
         
     </Grid>

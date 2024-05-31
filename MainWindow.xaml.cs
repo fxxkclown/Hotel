@@ -25,6 +25,7 @@ namespace Hotel
         {
             InitializeComponent();
             Manager.MainFrame = MainFrame;
+            Manager.MainFrame.Navigate(new Avtoriz());
 
         }
 
